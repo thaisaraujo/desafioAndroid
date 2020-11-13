@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#4056B5</color>
+    <color name="colorPrimaryDark">#334B9F</color>
+    <color name="colorAccent">#6A6AC3</color>
+
+
+    <!--> Login <-->
+    <color name="colorBtnVermelho">#F85051</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBtnCinza">#8492A6</color>
+    <color name="colorHint">#CFD8E3</color>
+    <color name="colorNomeRestaurante">#1F2D3D</color>
+    <color name="colorText">#96A2B4</color>
+    <color name="colorHome">#DDDDDD</color>
+    <color name="colorDescPrato">#9EA9B9</color>
+    <color name="colorCardapio">#596978</color>
 </resources>

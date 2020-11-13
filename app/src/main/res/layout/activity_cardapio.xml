@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".ui.CardapioActivity">
+
+    <include
+        layout="@layout/cardapio_top"/>
+
+    <TextView
+        android:id="@+id/tituloCardapio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/til_cardapio"
+        android:textSize="23sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="13dp"
+        android:textColor="@color/colorCardapio"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerPrato"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloCardapio"
+        tools:listitem="@layout/card_prato" />
+</LinearLayout>

@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">Desafio Android</string>
+    <string name="app_name">Digital House Foods</string>
+    <string name="til_userEmail">Email</string>
+    <string name="til_userPassword">Password</string>
+    <string name="stringBtnLogin">LOG IN</string>
+    <string name="divideOr">OR</string>
+    <string name="stringBtnRegister">REGISTER</string>
+    <string name="til_userName">Name</string>
+    <string name="til_userRepeatePassword">Repeate password</string>
+    <string name="til_voltar">Voltar</string>
+    <string name="til_register">Register</string>
+    <string name="til_resNome">Nome Restaurante</string>
+    <string name="til_cardapio">Pratos principais</string>
 </resources>
